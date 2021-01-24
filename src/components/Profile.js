@@ -15,14 +15,14 @@ class Profile extends Component {
     previousEmp(){
         let index = this.state.currentIndex
         if(index > 0){
-            this.setState({currentIndex: index--})
+            this.setState({currentIndex: index - 1})
         }
     }
 
     nextEmp(){
-        let index = this.state.currentIndex
+        let index = this.state.currentIndex += 1
         if(index < data.length -1){
-            this.setState({currentIndex: index++})
+            this.setState({currentIndex: index})
         }
     }
 
