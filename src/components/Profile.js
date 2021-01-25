@@ -28,7 +28,7 @@ class Profile extends Component {
 
     render(){
         return(
-            <div>
+            <div className="profile">
                 <DataSelection
                 currentEmp={data[this.state.currentIndex]}/>
                 <div className="buttons">

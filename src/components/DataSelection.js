@@ -22,7 +22,7 @@ class DataSelection extends Component{
     
         return (
             <div className='employee'>
-                <h1 className = 'id'>{id}/25</h1>
+                <h1 className ='id'>{id}/25</h1>
                 <h1 className='name'>{first} {last}</h1>
                     <span className='info'>
                         <h3>From:  {city}, {country}</h3>
@@ -31,7 +31,7 @@ class DataSelection extends Component{
                     </span>
                     <span className='movies'>
                         <h3>Favorite Movies:</h3>
-                        <div className='movie-list'>
+                        <div className='movieList'>
                             {this.renderMovieList()}
                         </div>
                     </span>
